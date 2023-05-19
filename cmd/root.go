@@ -157,5 +157,5 @@ func findHighestSemverTag(tags []string) string {
 		}
 	}
 
-	return highestSemver.String()
+	return highestSemver.Original()
 }
